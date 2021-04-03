@@ -1,1 +1,2 @@
 # methods_fractal_analysis
+Лабораторные работы
