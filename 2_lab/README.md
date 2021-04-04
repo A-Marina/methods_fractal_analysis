@@ -20,7 +20,7 @@
 	- цвет - (208, 137, 45) в RGB. Повторяется 965735 раз (пикселей)
 
 Файл с кодом (lab_2_code.py) и картинки расположены в данном репозитории\
-Также в репозитории находится файл "example_of_output.jpg" - пример вывода для image_2.jpg
+Также в репозитории находится файл "example_of_output.jpg" - пример вывода для "image_2.jpg" \
 Ссылка на google colab - https://colab.research.google.com/drive/1P4pRlJD7CzjakyIqyN5yas4D6hXkV-rq#scrollTo=ESbY_pf6KcFi
 
 
