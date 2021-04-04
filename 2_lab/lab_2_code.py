@@ -25,4 +25,9 @@ plt.imshow(palette);
 plt.axis('off');
 plt.show();
 
+# Печать изображения
+i= Image.open('image_2.jpg') # Название изображения 
+h, w = i.size
+print (h,w)
+i
 
