@@ -40,7 +40,6 @@ def b_s(img):
 # Подстчет u_s, b_s и v_ol и А
 originalImage = cv2.imread('im_2.png')
 grayImage = cv2.cvtColor(originalImage, cv2.COLOR_BGR2GRAY)
-cv2.imwrite("gs1.jpg", grayImage) 
 u1=u_s(grayImage)
 u2=u_s(u1)
 b1=b_s(grayImage)
