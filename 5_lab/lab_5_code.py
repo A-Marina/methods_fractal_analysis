@@ -63,16 +63,6 @@ def get_A(gImage):
   
   
 # Сегментация и вывод
-def image_show(image, nrows=1, ncols=1):
-    fig, ax = plt.subplots(nrows=nrows, ncols=ncols)
-    ax.imshow(image, cmap='gray')
-    ax.axis('off')
-    return fig, ax
-
-def calc_stats(l):
-    s = Series(A_s)
-    return s.describe()
-
 def segm(img):
     segmented_img = np.full(img.shape, 255)
     A_s = []
@@ -84,6 +74,12 @@ def segm(img):
                 segmented_img[i:i + 5,
                 j:j + 5].fill(0)
     cv2.imwrite('result_'+image_name, segmented_img)
+    
+def image_show(image, nrows=1, ncols=1):
+    fig, ax = plt.subplots(nrows=nrows, ncols=ncols)
+    ax.imshow(image, cmap='gray')
+    ax.axis('off')
+    return fig, ax
 
 
 originalImage = cv2.imread(image_name)
