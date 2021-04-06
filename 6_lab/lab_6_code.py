@@ -4,6 +4,7 @@ import scipy
 import cv2
 import matplotlib.pyplot as plt
 from google.colab.patches import cv2_imshow
+from PIL import Image
 
 # Ввод названия изображения
 image_name = 'image.jpg'
@@ -59,10 +60,10 @@ def plot_(betas, Div):
   plt.savefig('result_'+image_name)
 
 def get_div(betas):
-  u_s_arr.append(us(u_s_arr[-1]))
+  u_s_arr.append(u_s(u_s_arr[-1]))
   b_s_arr.append(b_s(b_s_arr[-1]))
   for beta in betas:
-      u_s_arr.append(us(u_s_arr[-1]))
+      u_s_arr.append(u_s(u_s_arr[-1]))
       b_s_arr.append(b_s(b_s_arr[-1]))
       vol1 = v_ol(u_s_arr[-2], b_s_arr[-2])
       vol2 = v_ol(u_s_arr[-1], b_s_arr[-1])
