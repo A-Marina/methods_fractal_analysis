@@ -9,4 +9,4 @@
 Результат построения сегментации этих изображений - "result_image_1.jpg" и "result_image_2.jpg"
 
 Файл с кодом - "lab_5_code.py" \
-Ссылка на google colab - https://colab.research.google.com/drive/1mk7CbxPGwxTVk1bdN34xgH62WT2lHVXe
+Ссылка на google colab - https://colab.research.google.com/drive/1mk7CbxPGwxTVk1bdN34xgH62WT2lHVXe?usp=sharing
